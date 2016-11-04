@@ -99,7 +99,7 @@
     "test-local-firefox": "node scripts/test.js local Firefox",
     "test-e2e": "npm run test e2e"
   },
-  "version": "0.0.2",
+  "version": "0.0.3",
   "bugs": {
     "url": ""
   },
