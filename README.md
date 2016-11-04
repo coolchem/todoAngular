@@ -4,7 +4,7 @@ This is a basic TODO app project based on the guidelies of [TodoMVC](http://todo
 
 
 #### Features
-- No Frontend Framework is used. The choice is yours.
+- [Angular](https://angular.io/docs/ts/latest/) as a View Framework.
 - Styling is Powered by [Sass](http://sass-lang.com/)
 - API is powered by [Express](http://expressjs.com/)
 - For Development

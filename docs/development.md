@@ -29,6 +29,12 @@
 2. Report is generated and put in <b>reporters/e2e</b> folder
 
 
+#### Aditional Resources
+
+1. [Angular template syntax](https://angular.io/docs/ts/latest/guide/template-syntax.html)
+2. [Angular Cheet sheet](https://angular.io/docs/ts/latest/guide/cheatsheet.html)
+
 #####Notes:
 - All Styling is Done using Sass, if you want to use custom css file put it in <b>client/libs</b> folder 
-- All Scripts are written in TypeScript if you want to use custom javascript library, put it in <b>client/libs</b> or <b>api/libs</b> folder     
+- All Scripts are written in TypeScript if you want to use custom javascript library, put it in <b>client/libs</b> or <b>api/libs</b> folder
+

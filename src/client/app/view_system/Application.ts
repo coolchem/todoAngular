@@ -1,5 +1,4 @@
 
-/*
 import { Component } from '@angular/core';
 
 @Component({
@@ -11,4 +10,4 @@ export class Application
     constructor(){
 
     }
-}*/
+}
