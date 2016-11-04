@@ -1,24 +1,13 @@
 
+//THis module is the entry point of our application and below code helps
+//helps bootstrap the Angular application
 
-require("core-js/shim");
+/*require("core-js/shim"); // polyfills the browser with any missing modern features
+import 'zone.js/dist/zone'; // required by angular
 
-import {EventConstants} from "./app/service_system/constants";
-import {myStore, myManager} from "./app/service_system/index";
+import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
+import {AppModule} from "./app/view_system/index";
 
-var app:HTMLDivElement = document.getElementById("app") as HTMLDivElement;
+platformBrowserDynamic().bootstrapModule(AppModule);*/
 
-var sayHiButton:HTMLButtonElement = document.getElementById("sayHiButton") as HTMLButtonElement;
-var sayHiResponseLabel:HTMLSpanElement = document.getElementById("sayHiResponseLabel") as HTMLSpanElement;
-
-myStore.addEventListener(EventConstants.MyStore.HI_HELLO,(result)=>{
-    sayHiResponseLabel.textContent = result;
-    console.log("My Store data updated: " + result)
-});
-
-
-
-sayHiButton.addEventListener("click",()=>{
-
-    //performing an action
-    myManager.sayHello();
-});
+console.log("Yay!!!");
